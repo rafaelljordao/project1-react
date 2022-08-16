@@ -1,4 +1,5 @@
 import { But } from "./Button"
+import './css/header.css'
 
 export const Head = () => {
     return(
@@ -7,7 +8,7 @@ export const Head = () => {
         <h1 class="header-title">especial para você</h1>
         <p class="header-text-bottom">todos os produtos dessa lista foram selecionados a partir da sua navegação. Aproveite!</p>
       
-        <div>
+        <div class="butts">
             <But txt="Conheça a Linx"/>
             <But txt="Ajude o algorítimo"/>
             <But txt="Seus produtos"/>
