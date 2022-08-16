@@ -1,0 +1,35 @@
+body {
+    font-family: helvetica;
+}
+  
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+}
+
+/* os buttons aqui tem que chamar com uma palavra só */
+
+.butts {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+/* o header tem como usar hífen-xyz */
+
+.header-text-top {
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.header-title {
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.header-text-bottom {
+    margin-top: 0px;
+}
