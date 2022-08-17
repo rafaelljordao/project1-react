@@ -15,20 +15,20 @@ export const Forms = () => {
 
             <div className='formBox'>
                 <label for="name">Seu nome:</label>
-                <input type="text" name="name" placeholder="Digite seu nome" />
+                <input type="text" className='inputBox' name="name" placeholder="Digite seu nome" />
 
                 <label for="email">E-mail:</label>
-                <input type="text" name="email" placeholder="Digite seu E-mail" />
+                <input type="text" className='inputBox' name="email" placeholder="Digite seu E-mail" />
                 
                 <label for="cpf">CPF:</label>
-                <input type="text" name="cpf" placeholder="Digite seu CPF" />
+                <input type="text" className='inputBox' name="cpf" placeholder="Digite seu CPF" />
                 
                 <div>
-                    <input type="radio" value="feminino" name="gender" />
-                    <label for="gender">Feminino</label>
+                    <input type="radio" name="gender" />
+                    <label for="gender" className='inputRadio'>Masculino</label>
                 
-                    <input type="radio" value="masculino" name="gender" />
-                    <label for="gender">Masculino</label>
+                    <input type="radio" name="gender" />
+                    <label for="gender" className='inputRadio'>Feminino</label>
                 </div>
 
                 <But txt="Enviar"/>

@@ -2,11 +2,20 @@ form {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: grey
+    margin-top: 0px;
 }
 
 .formBox {
     display: flex;
     flex-direction: column;
     width: 20em;
+}
+
+.inputBox {
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.inputRadio {
+    margin-right: 30px;
 }
