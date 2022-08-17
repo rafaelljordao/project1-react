@@ -10,10 +10,10 @@ export const Head = () => {
         <p className="header-text-bottom">todos os produtos dessa lista foram selecionados a partir da sua navegação. Aproveite!</p>
       
         <div className="butts">
-            <But className="classbutts" txt="Conheça a Linx"/>
-            <But className="classbutts" txt="Ajude o algorítimo"/>
-            <But className="classbutts" txt="Seus produtos"/>
-            <But className="classbutts" txt="Compartilhe"/>
+            <But txt="Conheça a Linx"/>
+            <But txt="Ajude o algorítimo"/>
+            <But txt="Seus produtos"/>
+            <But txt="Compartilhe"/>
         </div>
       </header>
     )
