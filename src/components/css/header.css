@@ -8,8 +8,8 @@ header {
     flex-direction: column;
     align-items: center;
     background-color: grey;
-    background-image: -webkit-linear-gradient(86deg, #ffffff 50%, #6f6f6f 50%);
-    height: 31em;
+    background-image: -webkit-linear-gradient(85.5deg, #ffffff 50%, #6f6f6f 50%);
+    min-height: 32em;
 }
 
 /* o header tem como usar hífen-xyz */
