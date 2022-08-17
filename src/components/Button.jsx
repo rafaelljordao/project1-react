@@ -1,4 +1,4 @@
-
+import './css/button.css'
 
 export const But = (props) => {
     return (

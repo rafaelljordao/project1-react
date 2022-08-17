@@ -1,0 +1,12 @@
+/* os buttons aqui tem que chamar com uma palavra só */
+
+.butts {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.butt {
+    margin-right: 20px;
+    background-color: rgb(55, 105, 49);
+}
