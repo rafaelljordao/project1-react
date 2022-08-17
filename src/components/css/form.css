@@ -1,0 +1,12 @@
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: grey
+}
+
+.formBox {
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+}
