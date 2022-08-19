@@ -1,13 +1,22 @@
-.gridContainer {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.wrapper {
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    background-color: #ffffff;
-    padding: 10px;
-}
-.gridItem {
-    background-color: rgb(255, 255, 255);
-    border: 10px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-}
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+    gap: 2rem;
+    justify-content: center;
+} */
