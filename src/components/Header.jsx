@@ -1,6 +1,6 @@
 import { But } from "./Button"
 import './css/header.css'
-// import './css/button.css'
+import './css/button.css'
 
 export const Head = () => {
     return(

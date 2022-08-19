@@ -14,28 +14,29 @@ export const Forms = () => {
             </div>
 
             <div className='formBox'>
-                <label for="name">Seu nome:</label>
+                <label htmlFor="name">Seu nome:</label>
                 <input type="text" className='inputBox' name="name" placeholder="Digite seu nome" />
 
-                <label for="email">E-mail:</label>
+                <label htmlFor="email">E-mail:</label>
                 <input type="text" className='inputBox' name="email" placeholder="Digite seu E-mail" />
-                
-                <label for="cpf">CPF:</label>
+
+                <label htmlFor="cpf">CPF:</label>
                 <input type="text" className='inputBox' name="cpf" placeholder="Digite seu CPF" />
-                
+
                 <div>
                     <input type="radio" name="gender" />
-                    <label for="gender" className='inputRadio'>Masculino</label>
-                
+                    <label htmlFor="gender" className='lblRadio'>Masculino</label>
+
                     <input type="radio" name="gender" />
-                    <label for="gender" className='inputRadio'>Feminino</label>
+                    <label htmlFor="gender" className='inputRadio'>Feminino</label>
                 </div>
 
                 <But txt="Enviar"/>
-            
+
             </div>
 
             
         </form>
     )
 }
+
