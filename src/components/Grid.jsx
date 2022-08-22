@@ -1,5 +1,5 @@
 import { Cards } from "./Card";
-// import { But } from "./Button";
+import { But } from "./Button";
 import axios from 'axios';
 import { useState, useEffect } from 'react'
 import './css/grid.css'
@@ -38,7 +38,7 @@ function Grid() {
     return (
         <div>
             <div className="gridTitle">
-                <h2>Sua Seleção Especial</h2> 
+                <h2>Sua seleção especial</h2> 
             </div>
             <div className="container">
             {cardInfo.map((card) => (
@@ -55,8 +55,8 @@ function Grid() {
             ))}
             </div>
             <div className="gridDivButt">
-                {/* <But onClick={() => {}} txt="ainda mais aqui" /> */}
-                <button onClick={loadMore}>Ainda mais produtos aqui!</button>
+                {/* <But className="gridButt" onClick={loadMore} txt="Ainda mais produtos aqui!" /> */}
+                <button className="gridButt" onClick={loadMore}>Ainda mais produtos aqui!</button>
             </div>
         </div>
     )

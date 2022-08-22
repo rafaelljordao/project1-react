@@ -1,10 +1,11 @@
 import { But } from './Button';
+import './css/card.css'
 
 export const Cards = (props) => {
     return (
         <div className="card">
             
-            <img className='image' width="120px" height="120px" src={props.image}/>
+            <img className='image' width="150px" height="120px" src={props.image}/>
             <h3 className='title'>{props.title}</h3>
             <p className='description'>{props.description}</p>
             <p className='oldPrice'>De: R${props.oldPrice.toFixed(2).replace('.',',')}</p>    
