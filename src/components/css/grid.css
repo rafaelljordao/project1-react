@@ -1,22 +1,18 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-.wrapper {
+.container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
-    gap: 2rem;
+    grid-template-columns: 10rem 10rem 10rem 10rem;
+    grid-gap: 2rem;
     justify-content: center;
-} */
+
+}
+
+.gridTitle {
+    text-align: center;
+}
+
+.gridDivButt {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    height: 40px;
+}
