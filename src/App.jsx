@@ -1,6 +1,7 @@
 import { Head } from './components/Header'
 import { Forms } from './components/Form'
 import Grid from './components/Grid'
+import { ContactForm } from './components/ContactForm'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <Head />
       <Forms />
       <Grid />
+      <ContactForm />
     </div>  
     
   )

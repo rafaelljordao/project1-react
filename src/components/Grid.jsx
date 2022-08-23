@@ -58,6 +58,9 @@ function Grid() {
                 {/* <But className="gridButt" onClick={loadMore} txt="Ainda mais produtos aqui!" /> */}
                 <button className="gridButt" onClick={loadMore}>Ainda mais produtos aqui!</button>
             </div>
+            <div className="gridTitle">
+                <h2>Compartilhe a novidade</h2> 
+            </div>
         </div>
     )
 }

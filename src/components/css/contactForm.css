@@ -1,0 +1,27 @@
+
+.formBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.inputBox {
+    height: 20px;
+    width: 200px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
